@@ -12,8 +12,10 @@ public class Camcorder extends Item{
 	}
 	
 	public String toString(){
-		String output = "";
+		String output = super.toString();
+		output +=
 		// Write your codes here
+		
 		return output;
 	}
 }
